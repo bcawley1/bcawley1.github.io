@@ -15,13 +15,16 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    opacity : 0.2;
+    #opacity : 0.2;
     z-index: -1;
 }
 
 .youtube:after {
   background: url(images/YouTube-icon-full_color_640.png) center center no-repeat;
 }
+.ark{
+    color: #cccccc;
+}
 .ark:after {
-  background: url(images/ARK_LOGO.png) center center no-repeat;
+  background: black url(images/Ark_Black.png) center center no-repeat;
 }
