@@ -3,10 +3,26 @@ html {
 }
 
 body {
+    background: #d1d1d1;
     height: 100%;
     width: 100%;
+    color: #cccccc;
 }
 
+@media (min-width: 1200px) {
+    .container {
+        width: 1000px;
+        margin: 0 auto;
+    }
+}
+
+.center {
+    text-align: center;
+}
+.container {
+    height: 100%;
+    background: #00105f;
+}
 .bg:after {
     content : "";
     display: block;
@@ -27,4 +43,8 @@ body {
 }
 .ark:after {
   background: black url(images/Ark_Black.png) center center no-repeat;
+}
+.blue {
+    color: #0014ff;
+    font-weight: bold;
 }
