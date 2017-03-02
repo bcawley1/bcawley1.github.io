@@ -21,7 +21,11 @@ body {
 }
 .container {
     height: 100%;
-    background: #00105f;
+    background: #07325f;
+}
+.container li {
+    list-style: none;
+
 }
 .bg:after {
     content : "";
@@ -45,6 +49,6 @@ body {
   background: black url(images/Ark_Black.png) center center no-repeat;
 }
 .blue {
-    color: #0014ff;
+    color: #4c99ff;
     font-weight: bold;
 }
