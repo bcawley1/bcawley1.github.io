@@ -52,3 +52,12 @@ body {
     color: #4c99ff;
     font-weight: bold;
 }
+a:link,a:visited {
+    color: #cccccc;
+    text-decoration: underline;
+}
+a:hover {
+    text-shadow: 5px 5px 5px rgba(0,0,0,0.5) ;
+    text-decoration: none;
+    font-weight: bold;
+}
