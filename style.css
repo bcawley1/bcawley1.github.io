@@ -9,6 +9,7 @@ body {
     height: 100%;
     width: 100%;
     color: #cccccc;
+    margin: 0;
 }
 
 h1 {
@@ -52,7 +53,6 @@ h6 {
 }
 .container li {
     list-style: none;
-
 }
 .bg:after {
     content : "";
@@ -72,7 +72,7 @@ h6 {
 .ark{
     color: #cccccc;
 }
-.ark:after {z
+.ark:after {
   background: black url(images/Ark_Black.png) center center no-repeat;
 }
 .blue {
@@ -117,4 +117,23 @@ a:hover {
     font-size: 1.6em;
     line-height: 1.2;
     padding: 1em;
+}
+.facts {
+    width: 55%;
+    margin-left:45%;
+    /*border: 1px solid black;*/
+    display: inline-block;
+
+}
+.facts li {
+    list-style: circle;
+    text-align: left;
+}
+.facts h4 {
+    margin: 0;
+}
+.stand-out {
+    text-shadow: 3px 3px 3px rgba(0,0,0,0.5) ;
+    font-weight: bold;
+    font-size: larger;
 }
