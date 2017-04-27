@@ -1,9 +1,16 @@
-
 html {
     font-size:10px;
-    font-family: sans-serif;
+    /*font-family: sans-serif, serif;*/
+    font-family: 'bitstream_vera_sansroman';
 }
 
+@font-face {
+    font-family: 'bitstream_vera_sansroman';
+    src: url('fonts/vera-webfont.woff2') format('woff2'),
+         url('fonts/vera-webfont.woff2') format('woff');
+    /*font-weight: normal;*/
+    /*font-style: normal;*/
+}
 body {
     background: #d1d1d1;
     height: 100%;
@@ -97,6 +104,7 @@ a:hover {
     display: inline-block;
     width: 300px;
     height: 310px;
+    margin-bottom: 1.5em;
     vertical-align: middle;
     /*border: 1px solid black;*/
 }
